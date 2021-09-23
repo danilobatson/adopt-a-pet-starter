@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <Navigation />
-      <Route path="/:type?n">
+      <Route path="/:type?">
       <HomePage />
       </Route>
     </Router>
